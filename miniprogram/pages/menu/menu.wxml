@@ -1,0 +1,19 @@
+<!--pages/menu/menu.wxml-->
+<!--页面的菜单进行布局-->
+
+
+<view>
+   <view  class="icons">  
+            <view class="icon" wx:for="{{userMenu}}" wx:for-item="item"  >      
+                <view class="item-container">
+                <image class="actionIcon" src="{{item.icon}}"/>
+                <text class="iconFont">{{item.name}}</text>
+                </view>
+               
+           </view>    
+        </view>
+</view>
+
+
+
+

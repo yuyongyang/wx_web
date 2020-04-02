@@ -1,0 +1,30 @@
+/* pages/menu/menu.wxss */
+
+.icons{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap ;
+  margin-top: 10%;
+}
+
+.icon{  
+  width: 70rpx;
+  height: 200rpx;
+  border-radius: 5rpx;
+
+}
+
+.actionIcon{
+  width: 80rpx;
+  height: 80rpx;
+  overflow: hidden;
+}
+
+.iconFont{
+  font-size: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.item-container{
+  height: 150px;
+}
