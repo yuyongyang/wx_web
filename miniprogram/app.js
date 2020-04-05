@@ -1,8 +1,13 @@
 //app.js
 //可获取app实例
 App({
+
+  
   onLaunch: function () {
-    
+    wx.setBackgroundFetchToken({
+      token: 'hgkj'
+    })
+
     if (!wx.cloud) {
       console.error('请使用 2.2.3 或以上的基础库以使用云能力')
     } else {
@@ -19,9 +24,8 @@ App({
 
     this.globalData = {
       userInfo:{name:"张三",tel:"13556789888"},
-      userMenu:[
-                                 
-                    {name:"我的待办",
+      userMenu:[                         
+                   {name:"我的待办",
                     icon:"../menu/titleImg.png",
                     redirectPath:"",
                   },

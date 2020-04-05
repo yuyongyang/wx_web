@@ -4,27 +4,30 @@ const app = getApp()
 
 Page({
   data: {
-  
+  name:"121212"
   },
 
 
 
 //现在使用
 formSubmit: function (e) {
-  //    console.log();
-  // wx.redirectTo({
-  //   url:"../menu/menu"
-  // })
-
-  wx.request({
-    url: "https://localhost:80/hello",
-    method:"POST",
-    success:function(data){
-      //拿到菜单数据进行跳转，如果没有用户则提示没有该用户
-      console.log(data);
-     
-    }
+     console.log();
+     this.setData({name:"11111"});
+  wx.switchTab({
+    url:"../menu/menu"
   })
+
+ 
+
+  // wx.request({
+  //   url: "http://localhost:80/hello",
+  //   method:"POST",
+  //   success:function(data){
+  //     //拿到菜单数据进行跳转，如果没有用户则提示没有该用户
+  //     console.log(data);
+     
+  //   }
+  // })
   
 },
 formReset: function () {

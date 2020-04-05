@@ -42,7 +42,7 @@ padding: 2rpx 10rpx 2rpx 10rpx;
   justify-content: center;
 }
 .submit{
-  background-color: #09F738;
+  background-color: #5bc0de;
   border-radius: 15rpx;
   width: 20%;
   height: 30rpx;
@@ -56,3 +56,4 @@ padding: 2rpx 10rpx 2rpx 10rpx;
 }
 
 .row{display: flex;}
+

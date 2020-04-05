@@ -2,7 +2,7 @@
 <view class="container">
   <form bindsubmit="formSubmit" bindreset="formReset">
   <view class="view titleImg">
-  <view> <image src="../index/titleImg.png" class="titleImgSize"/><text class="titleName">汉高运维</text>
+  <view> <image src="../index/titleImg.png" class="titleImgSize"/><text class="titleName"> 汉高运维</text>
   </view>
   </view>
   <view class="view row">

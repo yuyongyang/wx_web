@@ -1,6 +1,9 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/menu/menu",
+    "pages/userInfo/userInfo",
+
     "pages/userConsole/userConsole",
     "pages/storageConsole/storageConsole",
     "pages/databaseGuide/databaseGuide",
@@ -13,11 +16,17 @@
     "pages/openapi/cloudid/cloudid",
     "pages/im/im",
     "pages/im/room/room",
-    "pages/im1/room1/room1",
     "pages/logs/index",
-    "pages/menu/menu"
-    
+
+    "pages/gd_info/gd_info",
+    "pages/ready/ready",
+    "pages/onReady/onReady",
+    "pages/kownledge/kownledge",
+   
+    "pages/userCenter/userCenter",
+    "pages/kownledeInfo/kownledeInfo"
   ],
+
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
@@ -27,8 +36,18 @@
    
   },
  
- 
-
+  
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/menu/menu",
+      "text": "首页"
+   
+    },{
+      "pagePath": "pages/userInfo/userInfo",
+      "text": "个人中心"
+    }
+    ]
+  },
 
 
   "networkTimeout": {

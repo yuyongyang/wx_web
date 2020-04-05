@@ -4,14 +4,17 @@
 
 <view>
    <view  class="icons">  
-            <view class="icon" wx:for="{{userMenu}}" wx:for-item="item"  >      
+            <view class="icon"  wx:key="key" wx:for="{{userMenu}}" wx:for-item="item"  >      
                 <view class="item-container">
                 <image class="actionIcon" src="{{item.icon}}"/>
                 <text class="iconFont">{{item.name}}</text>
-                </view>
-               
+                </view>              
            </view>    
         </view>
+
+
+
+        
 </view>
 
 
